@@ -2,6 +2,7 @@
     background-color: black;
     margin: 0px;
     color: white;
+    font-family: "Lucida Console"
 }
 
 header {
@@ -34,6 +35,7 @@ button{
     padding: 10px 12px;
     color: white;
     font-size: medium;
+    cursor: pointer;
 }
 
 input[type=text]{
