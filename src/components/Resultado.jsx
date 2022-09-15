@@ -34,6 +34,7 @@ export const Resultado = ({BFP, gender}) => {
   )
 }
 
+//Componente que muestra info de cada nivel debajo de la barra de colores
 const Nivel = ({ color, porcentageH, porcentageM, descripcion, gender }) => {
   return (
     <div className='infoNivel'>

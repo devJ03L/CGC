@@ -5,22 +5,26 @@ export const useForm = () => {
     const [form, setForm] = useState({ gender: 'H' })
     const [errors, setErrors] = useState({})
 
+    //Funcion que actualiza el estado del form cada que cambia un input
     const handleChange = event => {
         const name = event.target.name
         const value = event.target.value
         setForm({ ...form, [name]: value })
     }
 
+    //Borra el estado del formulario, la opcion H en el radio button siempre es la de default
     const handleReset = event => {
         event.preventDefault()
         setForm({ gender: 'H' })
     }
 
+    //Funcion que llama las validaciones cada que se sale de un input
     const handleBlur = event => {
         handleChange(event)
         validateForm()
     }
 
+    //Funcion de las validaciones de campos vacios y formato de numeros
     const validateForm = () => {
         let errors = {}
         const regexInput = /^\d+(\.?\d)?$/
@@ -44,6 +48,7 @@ export const useForm = () => {
         setErrors(errors)
     }
 
+    //Se calcula el indice de grasa corporal cuando el objeto de errores esta vacío
     const handleSubmit = (event) => {
         event.preventDefault()        
         validateForm()
