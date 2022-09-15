@@ -1,5 +1,5 @@
 # Calculadora de Grasa Corporal
-Proyecto creado con **Vite** para calculadora el porcentage de grasa corporal
+Proyecto creado con **Vite** para calcular el porcentage de grasa corporal
 
 ### `yarn`
 Comando para descargar las dependencias
