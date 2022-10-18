@@ -11,7 +11,7 @@ import {
 export const GrasaCorporalApp = () => {
 
     const { grasaCorporalInfo } = useContext(GrasaCorporalContext)
-    
+
     return (
         <>
             <Header />
@@ -25,11 +25,12 @@ export const GrasaCorporalApp = () => {
                         grasaCorporalInfo &&
                         <>
                             <BarraResultado porcentage={grasaCorporalInfo.porcentage} />
-                            <ListaNiveles genero={grasaCorporalInfo.genero}/>
+                            <ListaNiveles genero={grasaCorporalInfo.genero} />
                         </>
                     }
                 </div>
             </div>
         </>
+
     )
 }

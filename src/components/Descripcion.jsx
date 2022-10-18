@@ -1,4 +1,7 @@
-export const Descripcion = () => {
+import React from "react"
+
+export const Descripcion = React.memo(() => {
+    
     return (
         <>
             <h1>Calculadora de Grasa Corporal</h1>
@@ -9,4 +12,4 @@ export const Descripcion = () => {
             <br />
         </>
     )
-}
+})
