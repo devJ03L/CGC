@@ -92,6 +92,7 @@ input[type=text]{
 .indicadorNivel{
     font-size: 25px;
 }
+
 .porcentNivel{
     font-size: 17px;
     padding-bottom: 10px;
@@ -108,11 +109,3 @@ input[type=text]{
     margin:auto;
     margin-bottom: 10px;
 }
-/* #triangulo {
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #f00;
-}
- */
