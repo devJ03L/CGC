@@ -13,7 +13,7 @@ export const BarraResultado = ({ porcentage = 0 }) => {
 
     return (
         <>
-            <h1>Tu resultado: {porcentage} %</h1><br />
+            <h1>Tu resultado: {porcentage}</h1><br />
             <div className='indicadorNivel' style={posicionMarcador}>
                 <p>{porcentage < 0 ? 0 : porcentage}%</p>
                 <p>&#9660;</p>
